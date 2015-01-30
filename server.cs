@@ -2,7 +2,7 @@ package BLSonic
 {
   function serverCmdcredits(%client)
   {
-	 execute("credits.cs")
+	 exec("credits.cs")
 }
 };
 activatePackage(BLSonic); // This will automatically parse the package on execution
