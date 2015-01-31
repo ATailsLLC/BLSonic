@@ -1,4 +1,4 @@
-package BLSonic
+package BLSonicCommands // This runs the commands for the game.
 {
   function serverCmdcredits(%client)
   {
@@ -11,6 +11,6 @@ package BLSonic
      messageClient(%client, '', "\c6 [Empty Vol. Spot]");
   }
 };
-activatePackage(BLSonic); // This will automatically parse the package on execution
+activatePackage(BLSonicCommands); // This will automatically parse the package on execution
 //Let the Sonic BEGIN!
 
